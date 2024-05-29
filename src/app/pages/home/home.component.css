@@ -1,0 +1,66 @@
+/* Header */
+.header,
+.header-secondary {
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+.header-secondary {
+    font-size: 35px;
+}
+
+.spinner-cotacao {
+    width: 60px;
+    height: 60px;
+}
+
+@media (max-width: 992px){
+    .header h1{
+        font-size: 35px;
+    }
+
+    .header-secondary {
+        font-size: 20px;
+    }
+}
+
+/* Buscar por período */
+.buscarPorPeriodo {
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.font-label {
+    font-size: 20px;
+}
+
+ul {
+    margin-left: 20%;
+    margin-right: 20%;
+    list-style-type: none;
+    padding: 0;
+}
+
+.erro {
+    color: red;
+}
+
+.btn {
+    width: 100%;
+    height: 40px;
+}
+
+.spinner-pesquisa {
+    height: 25px;
+    width: 25px;
+}
+
+/* Tabela do histórico de cotações */
+.table {
+    text-align: center;
+    font-size: 15px;
+}
+
